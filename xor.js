@@ -1,7 +1,5 @@
 function xor (values, evaluator) {
-  return !!values
-    .map(evaluator)
-    .reduce((final, result) => final ^ result)
+  return !!values.reduce((final, result) => final ^ evaluator(result), false)
 }
 
 module.exports = xor
