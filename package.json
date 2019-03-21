@@ -1,0 +1,11 @@
+{
+  "name": "tiny-xor",
+  "version": "1.0.0",
+  "description": "tiny utility to make it easier to write conditionals",
+  "main": "xor.js",
+  "scripts": {
+    "test": "node xor.test.js"
+  },
+  "author": "Peter Squicciarini <stripedpajamas273@gmail.com>",
+  "license": "MIT"
+}
